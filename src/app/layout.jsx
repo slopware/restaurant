@@ -46,10 +46,10 @@ const links = [
   },
 ];
 
-export const metadata = {
-  title: "Catfish Deweys",
-  description: "The official website for Catfish Deweys",
-};
+// export const metadata = {
+//   title: "Catfish Deweys",
+//   description: "The official website for Catfish Deweys",
+// };
 
 export default function RootLayout({ children }) {
   const path = usePathname();

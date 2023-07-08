@@ -87,9 +87,12 @@ export default function RootLayout({ children }) {
             sticky ? styles.sticky : null
           }`}
         >
-          <Link href="/">
-            <Image src={logo} alt="logo" className={styles.logo} />
-          </Link>
+          <div className={styles.logoContainer}>
+            <Link href="/">
+              <Image src={logo} alt="logo" className={styles.logo} />
+            </Link>
+          </div>
+
           <div className={styles.links}>
             {links.map((link) => (
               <Link href={link.url} key={link.id}>
@@ -105,7 +108,33 @@ export default function RootLayout({ children }) {
               </Link>
             ))}
           </div>
+        <nav className={styles.burgerNav}>
+          <div className={styles.burgerToggle}>
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul className={styles.burgerMenu}>
+              <a href="#">
+                <li>Home</li>
+              </a>
+              <a href="#">
+                <li>Menu</li>
+              </a>
+              <a href="#">
+                <li>Takeout</li>
+              </a>
+              <a href="#">
+                <li>About</li>
+              </a>
+              <a href="#">
+                <li>Contact</li>
+              </a>
+            </ul>
+          </div>
+        </nav>
         </div>
+
 
         {sticky && (
           <div

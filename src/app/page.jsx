@@ -32,9 +32,9 @@ export default function Home() {
         <div className={styles.cardContent}>
           <h3 className={styles.text}>Home page</h3>
           <div className={`${styles.text} ${noto_sans.className}`}>
-            The transition property in the .heroButton class is used to animate
-            changes to the button's properties over a small duration, providing
-            a smoother visual effect when the button is hovered.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            pellentesque porttitor leo, non molestie lorem dapibus ut. Donec
+            velit libero, pulvinar eu elit vel, aliquam vulputate nibh.
           </div>
         </div>
         <Image src={catfish} alt="catfish" className={styles.img} />
@@ -45,12 +45,12 @@ export default function Home() {
         <div className={styles.cardContent}>
           <h3 className={styles.text}>Home page</h3>
           <div className={`${styles.text} ${noto_sans.className}`}>
-            The transition property in the .heroButton class is used to animate
-            changes to the button's properties over a small duration, providing
-            a smoother visual effect when the button is hovered. The syntax is
-            transition: [property] [duration] [timing-function]. This causes the
-            changes in box-shadow and transform to occur over a 0.3-second
-            interval, using an 'ease' timing function for a more natural effect.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            pellentesque porttitor leo, non molestie lorem dapibus ut. Donec
+            velit libero, pulvinar eu elit vel, aliquam vulputate nibh. Nullam
+            et malesuada risus. Nam eleifend interdum lacinia. Ut nec venenatis
+            tellus. Cras auctor justo quis lacus mattis molestie. Aliquam erat
+            volutpat.
           </div>
         </div>
       </div>
@@ -59,9 +59,10 @@ export default function Home() {
         <div className={styles.cardContent}>
           <h3 className={styles.text}>Home page</h3>
           <div className={`${styles.text} ${noto_sans.className}`}>
-            The transition property in the .heroButton class is used to animate
-            changes to the button's properties over a small duration, providing
-            a smoother visual effect when the button is hovered.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            pellentesque porttitor leo, non molestie lorem dapibus ut. Donec
+            velit libero, pulvinar eu elit vel, aliquam vulputate nibh. Nullam
+            et malesuada risus.
           </div>
         </div>
         <Image src={crawfish} alt="crawfish" className={styles.img} />
@@ -72,9 +73,12 @@ export default function Home() {
         <div className={styles.cardContent}>
           <h3 className={styles.text}>Home page</h3>
           <div className={`${styles.text} ${noto_sans.className}`}>
-            The transition property in the .heroButton class is used to animate
-            changes to the button's properties over a small duration, providing
-            a smoother visual effect when the button is hovered.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            pellentesque porttitor leo, non molestie lorem dapibus ut. Donec
+            velit libero, pulvinar eu elit vel, aliquam vulputate nibh. Nullam
+            et malesuada risus. Nam eleifend interdum lacinia. Ut nec venenatis
+            tellus. Cras auctor justo quis lacus mattis molestie. Aliquam erat
+            volutpat.
           </div>
         </div>
       </div>

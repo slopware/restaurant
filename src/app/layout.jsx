@@ -73,7 +73,9 @@ export default function RootLayout({ children }) {
       const shouldBeSticky = window.scrollY > stickyOffset;
       setSticky(shouldBeSticky);
     };
-    window.addEventListener("scroll", handleScroll, { passive: true });
+    window.addEventListener("scroll", handleScroll, {
+      passive: true,
+    });
     return () => window.removeEventListener("scroll", handleScroll);
   }, [setSticky, stickyRef, stickyOffset]);
 
@@ -108,33 +110,32 @@ export default function RootLayout({ children }) {
               </Link>
             ))}
           </div>
-        <nav className={styles.burgerNav}>
-          <div className={styles.burgerToggle}>
-            <input type="checkbox" />
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul className={styles.burgerMenu}>
-              <a href="#">
-                <li>Home</li>
-              </a>
-              <a href="#">
-                <li>Menu</li>
-              </a>
-              <a href="#">
-                <li>Takeout</li>
-              </a>
-              <a href="#">
-                <li>About</li>
-              </a>
-              <a href="#">
-                <li>Contact</li>
-              </a>
-            </ul>
-          </div>
-        </nav>
+          <nav className={styles.burgerNav}>
+            <div className={styles.burgerToggle}>
+              <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul className={styles.burgerMenu}>
+                <a href="#">
+                  <li>Home</li>
+                </a>
+                <a href="#">
+                  <li>Menu</li>
+                </a>
+                <a href="#">
+                  <li>Takeout</li>
+                </a>
+                <a href="#">
+                  <li>About</li>
+                </a>
+                <a href="#">
+                  <li>Contact</li>
+                </a>
+              </ul>
+            </div>
+          </nav>
         </div>
-
 
         {sticky && (
           <div
